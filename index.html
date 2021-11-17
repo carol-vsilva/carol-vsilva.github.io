@@ -1,9 +1,57 @@
+<!DOCTYPE html> 
 <html>
     <head>
         <title>My blog</title>
+        <meta charset="UTF-8">
+        <!--Link to the css file-->
+        <link href="styles/main.css" rel="stylesheet">
+        <!--Links of the fonts to be used-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
     <body>
-        <h1>Kia ora Taiao! (Hello World!)</h1>
-        <p>This is the beginning of my website home page.</p>
-        <p>It will eventually contain a list of links to all my blogs. </p>
+        <header>
+            <!--Top card with redirection to the main page-->
+            <nav id="header">
+                <span class="short-name-logo">CS Blog</span>
+                <a class="main-page-return" href="https://carol-vsilva.github.io/">Homepage</a>
+            </nav>
+        </header>
+        <div id="sidebar">
+            <!--Introduction about me-->
+            <img class="avatar" src="photos/First-page-face.jpeg" alt="A picture of myself near to a watefall at the Milford Sounds.">
+            <h1 class="about-me">Kia ora</h1>
+            <p>
+                Welcome to my first blog! I am Carol, and I will be sharing here my reflections as I move through Dev Academy.  
+            </p>
+            <p>
+                Learning is a big passion for me, and this opportunity of studying web development showed up right on time for a career change. I can't wait to be able of sharing this journey with you all. 
+            </p>
+            <p>
+                Hoping that you will enjoy it as much as I do!
+            </p>
+            <a class="my-links" target="blank" href="https://github.com/carol-vsilva">
+                <img class="media-logos" src="photos/github-logo.png" alt="Github">
+            </a>
+            <a class="my-links" target="blank" href="https://www.linkedin.com/in/carolinavieiradasilva/">
+                <img class="media-logos" src="photos/linkedln-logo.png" alt="Linkedin">
+            </a>   
+        </div>
+        <nav>
+            <!--Links to access the blog posts-->
+            <div class="box-1">
+                <a class="blog-card-link" href="https://carol-vsilva.github.io/blog/template">
+                    <img class="blog-title-card" src="photos/CSS-Concepts.png" alt="CSS Concept">
+                </a>
+            <div class="box-2">
+                <a class="blog-card-link" href="https://carol-vsilva.github.io/blog/template">
+                    <img class="blog-title-card" src="photos/Identity.png" alt="Identity">
+                </a>
+            </div>
+        </nav>
+        <footer class id="footer">
+            <span class="footer-text">© 2021 Carol Silva</span>
+        </footer>
     </body>
 </html>
