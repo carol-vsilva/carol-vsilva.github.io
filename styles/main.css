@@ -21,7 +21,7 @@ body {
     font-size: 13px;
     font-weight: bold;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
 }
@@ -55,4 +55,18 @@ body {
 .blog-title-card {
     border-radius: 50%;
     margin: 40px;
+}
+
+#content {
+    text-align: justify;
+    padding-top: 0%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+}
+
+.Subtitles-post {
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
 }
