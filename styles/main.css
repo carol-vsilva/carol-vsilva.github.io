@@ -28,10 +28,6 @@ body {
 
 .short-name-logo {
     padding-left: 100px;
-}
-
-.main-page-return {
-    padding-right: 100px;
     text-decoration: none;
     color: black
 }
@@ -39,14 +35,15 @@ body {
 #sidebar {
     margin-left: 100px;
     margin-top: 20px;
-    width: 30%;
+    max-width: 30%;
     float: left;
     text-align: justify;
+    font-size: 100%;
     max-height: 100%;
 }
 .avatar {
     border-radius: 20%;
-    width: 200px;
+    width: 50%;
 }
 
 .media-logos {
@@ -56,6 +53,7 @@ body {
 
 .blog-title-card {
     border-radius: 50%;
+    width: 200px;
     margin: 40px;
 }
 
