@@ -77,3 +77,9 @@ body {
     text-align: center;
     font-size: 200%;
 }
+
+.html-image {
+    max-width: 100%;
+    text-align: center;
+    border-style: groove;
+}
