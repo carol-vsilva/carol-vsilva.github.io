@@ -39,8 +39,10 @@ body {
 #sidebar {
     margin-left: 100px;
     margin-top: 20px;
-    width: 25%;
+    width: 30%;
     float: left;
+    text-align: justify;
+    max-height: 100%;
 }
 .avatar {
     border-radius: 20%;
@@ -57,15 +59,9 @@ body {
     margin: 40px;
 }
 
-.box-1 {
-    width: 50%;
-    float: left;
-    padding-bottom: 10px;
-}
-
-.box-2 {
-    width: 30%;
-    float: right;
+#internal-links {
+    table-layout: auto;
+    width: 100%;
 }
 
 #content {
