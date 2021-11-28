@@ -90,3 +90,9 @@ body {
     padding-bottom: 5%;
     padding-left: 20%;
 }
+
+.javaScript-fundamentals-photo {
+    max-width: 50%;
+    text-align: center!important;
+    border-style: groove;
+}
