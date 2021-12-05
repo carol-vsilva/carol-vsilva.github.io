@@ -96,3 +96,8 @@ body {
     text-align: center!important;
     border-style: groove;
 }
+
+.small-interjections {
+    width: 15px!important;
+    height: 15px!important;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="../styles/main.css" rel="stylesheet">
+        <title>Problem Solving</title>
+        <!--Links of the fonts to be used-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <!--Top card with redirection to the main page-->
+            <nav id="header">
+                <a class="short-name-logo" href="https://carol-vsilva.github.io/">CS Blog</a>
+            </nav>
+        </header>
+        <div id="content">
+            <h2 class="Subtitles-post">Problem Solving</h2>
+            <h3>05 December 2021</h3>
+
+            <p>
+                Since we started JavaScript, problem-solving techniques have been present daily in my studies. I will tell you about the Super FizzBuzz problem done this week. The narration of the exercise was a long description of it - point one of why I got stuck. Well, my friends, I learned that I tend to overthink if there is too much information. We had to print “Fizz” instead of multiples of 3, “Buzz” instead of multiples of 5, and “FizzBuzz” for multiples of 15.
+            </p>
+            <p>
+                I had a good start using the conditionals, but suddenly I decided to also add loops to consider only numbers from 1 to 100. Please note that the exercise expected us to write two different functions, but I ended up trying to include the full problem in just one. It was just not working. I tried console log the variables, but there were so many, that I only got more confused. 
+            </p>
+            <p>
+                That’s why I decided that the whole thing was just not making sense. Googling the original problem was my first attempt to have different perspectives. It worked just fine! The first thinking about the conditionals was perfect. Then, at this moment, I realised that my interpretation of the problem seemed to be too superficial. I got back to the heading and decided to write down a summary on a piece of paper. After that, I read it all again and included some points, or deleted any extra information. 
+            </p>
+            <p>
+                Nice! At the end of this process, I felt fresh to start again as new ideas came up. I could finally see how I had to break down the problem. The first function would be the normal FizzBuzz, and the loop would happen only on the second function. Console log finally worked fine on the first problem - <img class="small-interjections" src="../photos/check-icon.png" alt="Check icon"> ! Then, I started the second part of the loop. It was way simpler to write down:
+            </p>
+            <ol>
+                <li>One variable with an empty array</li>
+                <li>The loop would now happen as per the numbers given by the user (no range from 1-100)</li>
+                <li>Another variable “result name” to allocate the result of the number when the Fizzbuzz function was used - being the same number or “Fizz”, or ‘Buzz, or “FizzBuzz”</li>
+                <li>Add this “result name” to the new array</li>
+            </ol>
+            <p>
+                And… It was still not working <img class="small-interjections" src="../photos/error-icon.png" alt="Error message">. I had to include another break here because the lines looked all like the same here. Frustration was the definition of my spirit.
+            </p>
+            <p> 
+                It was just not working, so I asked for help! My partner was the first one to put his hands up. It was indeed great to confirm that so much of the coding was right. But it seemed odd that the numbers were not getting pulled individually from the array to be checked. So here I went again. Add a new variable to collect the number from the array. This number would then get compared to the fizzbuzz function and allocated on the resultName. And this is finally how I won this problem! 
+            </p>
+            <img class="win-gif" src="../photos/win-confetti.gif" alt="Win celebration">
+            <p>
+                As you can see, the problem took a long process to get completed (and time). But I counted on some great techniques to help me to keep calm and investigate new concepts. These were:
+            </p>
+            <un>
+                <li>Pseudocode: picture the situation and write down the steps to be followed</li>
+                <li>Trying something</li>
+                <li>Google: never old - always have something to add to the cause</li>
+                <li>Console.logging: checking what the computer is doing</li>
+                <li>Improving your process with reflection</li>
+                <li>Asking your peers for help</li>
+            </un>
+
+            <div class="eq-personal-photo">
+                <img class="html-image" src="../photos/problem-solving-photo.jpeg" alt="Picture of my notebook with notes of the SuperFizzBuzz exercise">
+            </div>
+
+        </div>
+        </body>
+        <footer class id="footer">
+            <span class="footer-text">© 2021 Carol Silva</span>
+        </footer>
+    </body>
+</html>
